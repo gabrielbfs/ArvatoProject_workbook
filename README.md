@@ -37,11 +37,11 @@ In this project, we analyze demographics data for customers of mail-order sales 
 
 ### Visualisation:
 
-![CustomerPopulation-distribution2D](\figures\CustomerPopulation-distribution2D.png)
+![CustomerPopulation-distribution2D](/figures/CustomerPopulation-distribution2D.png)
 
 
 
-![AUC-ROC_NN](\figures\AUC-ROC_NN.png)
+![AUC-ROC_NN](/figures/AUC-ROC_NN.png)
 
 ### Next Steps
 
