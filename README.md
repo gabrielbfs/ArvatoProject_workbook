@@ -12,6 +12,16 @@ In this project, we analyze demographics data for customers of mail-order sales 
 
 
 
+**target variable**: binary classification problem in the training set, where 1 indicates that the observation is a company customer.
+
+**predictor variables:** the independent variables, after dimensionality reduction, a set of 350 variables (overall), presents characteristics (personal information) over individuals.
+
+**algorithms**: two different algorithms were tested in this process, a Neural Network (6 layers) and a Gradient Boosting Regressor. Both algorithms got similar performances on a validation set, near ROC-AUC 70%.
+
+- [**metrics**](https://scikit-learn.org/stable/modules/generated/sklearn.metrics.roc_curve.html#sklearn.metrics.roc_curve)**:** to evaluate the quality of the prediction, the metric ROC curve (receiver operating characteristic) is computed in the context of a binary classification problem. The ROC curve evaluates the rate of true positives (TP) against false positive (FP) at various thresholds. It is indicated for problems of imbalanced categories, as we see in this problem.
+
+
+
 ### Data
 
 - `Udacity_AZDIAS_052018.csv`: demographics data for the general population of Germany;
